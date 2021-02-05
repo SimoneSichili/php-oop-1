@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 50px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px 30px 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
